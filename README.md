@@ -17,7 +17,7 @@ Coze, Python, Google Sheets API.
 
 | Ответ бота в ТГ | Схема Workflow |
 | :---: | :---: |
-| <img src="tg_result.png" width="380"> | <img src="workflow_scheme.png" width="550"> |
+| <img src="tg_result.png" width="380"> | <img src="workflow_scheme.png" width="650"> |
 
 <br>
 
