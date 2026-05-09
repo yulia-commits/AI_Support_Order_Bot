@@ -16,7 +16,7 @@
 Бот корректно распознает запрос, находит клиента в базе по ID и выводит персонализированный ответ.
 
 <figure>
-  <img src="tg_result.png" width="45%" alt="Результат в Telegram">
+  <img src="tg_result.png" width="55%" alt="Результат в Telegram">
   <figcaption><i>Рис 1. Пример успешного запроса статуса заказа и работа интерактивных кнопок.</i></figcaption>
 </figure>
 
@@ -24,7 +24,7 @@
 Визуальная схема связки блоков: от получения сообщения до финального вывода данных.
 
 <figure>
-  <img src="workflow_scheme.png" width="90%" alt="Схема Workflow">
+  <img src="workflow_scheme.png" width="100%" alt="Схема Workflow">
   <figcaption><i>Рис 2. Логическая цепочка блоков в Coze Workflow.</i></figcaption>
 </figure>
 
