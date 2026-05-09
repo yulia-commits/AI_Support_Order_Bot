@@ -10,25 +10,28 @@
 
 ---
 
-### Результаты работы:
+## Этапы реализации и результаты
 
-#### 1. Ответ бота в Telegram
-Бот находит данные в таблице и обращается к клиенту по имени.
-<br>
-<img src="tg_result.png" width="400">
+### 1. Интерфейс пользователя (Telegram)
+Бот корректно распознает запрос, находит клиента в базе по ID и выводит персонализированный ответ.
 
-<br>
-<br>
+<figure>
+  <img src="tg_result.png" width="45%" alt="Результат в Telegram">
+  <figcaption><i>Рис 1. Пример успешного запроса статуса заказа и работа интерактивных кнопок.</i></figcaption>
+</figure>
 
-#### 2. Схема Workflow в Coze
-Общая логика связки всех блоков ассистента.
-<br>
-<img src="workflow_scheme.png" width="850">
+### 2. Архитектура Workflow (Coze)
+Визуальная схема связки блоков: от получения сообщения до финального вывода данных.
 
-<br>
-<br>
+<figure>
+  <img src="workflow_scheme.png" width="90%" alt="Схема Workflow">
+  <figcaption><i>Рис 2. Логическая цепочка блоков в Coze Workflow.</i></figcaption>
+</figure>
 
-#### 3. Логика на Python
-Скрипт для поиска и обработки информации из таблицы.
-<br>
-<img src="python_logic.png" width="600">
+### 3. Программная логика (Python)
+Код, который отвечает за обработку данных из Google Sheets и точное сопоставление ID заказа.
+
+<figure>
+  <img src="python_logic.png" width="70%" alt="Логика на Python">
+  <figcaption><i>Рис 3. Python-скрипт для очистки данных и поиска совпадений.</i></figcaption>
+</figure>
