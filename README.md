@@ -4,7 +4,7 @@
 
 ### Основные задачи:
 * Настройка Workflow для связи Telegram-канала с Google Sheets API.
-* Написание Python-скрипта для обработки данных из таблицы (поиск строки по ID заказа).
+* Написание Pythonф-скрипта для обработки данных из таблицы (поиск строки по ID заказа).
 * Настройка персонализированных ответов: бот выводит имя клиента и статус доставки напрямую из базы.
 * Добавление интерактивных кнопок (инлайн-меню) для навигации пользователя.
 
@@ -17,7 +17,11 @@ Coze, Python, Google Sheets API.
 
 | Ответ бота в ТГ | Схема Workflow |
 | :---: | :---: |
-| <img src="tg_result.png" width="400"> | <img src="workflow_scheme.png" width="400"> |
+| <img src="tg_result.png" width="380"> | <img src="workflow_scheme.png" width="550"> |
+
+<br>
 
 ### Логика обработки данных (Python):
-<img src="python_logic.png" width="100%">
+<p align="left">
+  <img src="python_logic.png" width="500">
+</p>
